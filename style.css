@@ -1,0 +1,80 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+       
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+/* Cor da logo: #5D4AFF zul / #2BFF24 verde */
+
+body{
+    /* background da logo */
+    background-color: #001244; 
+    height: 100vh;
+}
+
+.interface{
+    max-width: 128rem;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 4rem 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .interface > .logo > a > img{
+    width: 20rem;
+    height: 10rem;
+    object-fits: cover;
+}
+
+header a{
+    color: #95b2ff; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 4rem;
+}
+
+header .btn-contato button{
+    padding: 1rem 4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    background-color: #2BFF24;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0 0 .8rem #2bff2479;
+}
